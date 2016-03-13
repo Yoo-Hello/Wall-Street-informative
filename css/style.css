@@ -27,8 +27,7 @@ header{
 	position: relative;
 	height: 145px;
 	background: #fff;
-	border-top: 1px solid #333;
-	border-bottom: 1px solid #333;
+	border-bottom: 1px solid #999;
 }
 .navbox:after{
 	content: "";
