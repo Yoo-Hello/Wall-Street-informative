@@ -54,7 +54,7 @@ header{
 	text-align: center;
 	line-height: 145px;
 	width: 7%;
-	font-size: 40px;
+	font-size: 45px;
 }
 /*右边添加*/
 .bianji{
@@ -67,11 +67,14 @@ header{
 	box-shadow: -10px 0px 50px -20px;
 }
 .bianji>span{
+	display: block;
 	font-size: 110px;
-	position: absolute;
+	/*position: absolute;
 	left: 23%;
-	top: -6%;
+	top: -6%;*/
 	color: #628ed8;
+	text-align: center;
+	line-height: 135px;
 }
 .search{
 	width: 100%;
@@ -191,6 +194,7 @@ nav{
 	width: 69px;
 	height: 67px;
 	margin:0 auto;
+	margin-bottom: 12px;
 }
 .bottom_nav ul li:nth-child(1) a span{
 	background-image: url(../img/icon1.png);
